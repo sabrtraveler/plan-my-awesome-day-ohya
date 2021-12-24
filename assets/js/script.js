@@ -1,7 +1,7 @@
 // todays date under hero/banner 
 {
-    var today = moment().format("llll");
-    $("#currentDay").append(today);
+    var today = moment().format('dddd, MMMM Do YYYY: h:mm:ss a');
+    $("#currentDate").append(today);
 
 }
 
