@@ -9,7 +9,7 @@ var workTime = moment().startOf("hour").add(14, "hour");
 var hour = moment().format("H");
 
 // for loop to create the total work time slots
-for (var i = 9; i < 21; i++) {
+for (var i = 9; i < 18; i++) {
   var timePeriod = workTime.add(1, "hour").format("h:mm A");
   var timeState;
 
