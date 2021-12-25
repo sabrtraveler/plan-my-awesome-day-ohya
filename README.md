@@ -11,5 +11,4 @@ The work day scheduler has the following functionality:<br>
 <li>Great practice to learn css frameworks and javascript libraries.<br>
 <li>Another challenge to strengthen our knowledge of saving data in local storage.<br><br>
 The following images shows the web application's appearance and functionality:<br><br> 
-  <img src="./assets/images/1.png" style="width: 100%; max-width: 100%;">
-  <img src="./assets/images/2.png" style="width: 100%; max-width: 100%;">
+  <img src="./assets/images/1.png" style="width: 50%; max-width: 50%;">
