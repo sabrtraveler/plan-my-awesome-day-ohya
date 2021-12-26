@@ -5,7 +5,7 @@
 }
 
 // work day hours for the scheduler
-var workTime = moment().startOf("hour").add(12, "hour");
+var workTime = moment().set('hour', 7).subtract('minute', 12);
 var hour = moment().format("H");
 
 // for loop to create the total work time slots
