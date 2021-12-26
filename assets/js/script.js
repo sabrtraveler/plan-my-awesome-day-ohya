@@ -5,11 +5,11 @@
 }
 
 // work day hours for the scheduler
-var workTime = moment().startOf("hour").add(14, "hour");
+var workTime = moment().startOf("hour").add(12, "hour");
 var hour = moment().format("H");
 
 // for loop to create the total work time slots
-for (var i = 9; i < 18; i++) {
+for (var i = 9; i < 19; i++) {
   var timePeriod = workTime.add(1, "hour").format("h:mm A");
   var timeState;
 
@@ -42,6 +42,6 @@ $(".saveBtn").on("click", function () {
   localStorage.setItem(time, value);
 });
 
-for (var i = 9; i < 18; i++) {
+for (var i = 9; i < 19; i++) {
   $(`.hour-${i}`).val(localStorage.getItem(`hour-${i}`));
 }
